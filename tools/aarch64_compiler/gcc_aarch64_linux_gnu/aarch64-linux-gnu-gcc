@@ -1,0 +1,6 @@
+#!/bin/bash --norc
+
+PATH="external/aarch64_gcc_linux_toolchain/libexec/gcc/aarch64-linux-gnu/7.3.1:$PATH" \
+  exec \
+  external/aarch64_gcc_linux_toolchain/bin/aarch64-linux-gnu-gcc \
+  "$@"

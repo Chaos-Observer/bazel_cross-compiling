@@ -1,0 +1,5 @@
+#!/bin/bash --norc
+
+exec -a aarch64-linux-gnu-cpp \
+  external/aarch64_gcc_linux_toolchain/bin/aarch64-linux-gnu-cpp \
+  "$@"
